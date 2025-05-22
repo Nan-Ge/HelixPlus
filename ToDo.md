@@ -1,2 +1,13 @@
 ## ToDo List
-- 熟悉模拟器
+- 模拟器
+    - 添加消费级显卡的profile result
+    - 添加更多模型的参数，重点是层数和各层的参数量
+    - model placement算法的解释：
+        - Petals
+        - SWARM
+        - Homogeneous
+    - 网络丢包 and GPU故障的模拟（这个要看vLLM怎么实现的）
+    - 丢包和GPU故障后的模拟实验结果
+    - 更多的llama测试prompt
+- 实际系统
+    - vLLM原理和实现
