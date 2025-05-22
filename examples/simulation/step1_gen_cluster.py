@@ -13,6 +13,7 @@ def generate_single(file_name: str):
     # set the statistics of the cluster
     generator.set_node_statistics(num_compute_nodes=24, avg_degree=23, source_degree=24, sink_degree=24,
                                   node_type_percentage={"A100": 4, "T4": 12, "L4": 8})
+    
     generator.set_link_statistics(avg_bandwidth=1 * gbps, var_bandwidth=0,
                                   avg_latency=1 * MilliSec, var_latency=0,
                                   fill_with_slow_link=True,
